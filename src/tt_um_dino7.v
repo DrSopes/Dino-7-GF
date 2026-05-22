@@ -37,6 +37,7 @@ module tt_um_dino7 (
 
     reg [23:0] clk_div;
     reg [23:0] frame_period;
+    reg [23:0] difficulty_step;
     wire frame_tick = (clk_div >= frame_period);
 
     reg obs_c, obs_g, obs_f, obs_passed;
