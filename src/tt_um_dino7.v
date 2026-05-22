@@ -144,8 +144,8 @@ module tt_um_dino7 (
                                     current_level <= current_level + 1'b1;
                                     if (best_level_completed < ({1'b0, current_level} + 4'd1))
                                         best_level_completed <= ({1'b0, current_level} + 4'd1);
-                                    if (frame_period > base_difficulty_step)
-                                        frame_period <= frame_period - base_difficulty_step;
+                                    if (frame_period > difficulty_step)
+                                        frame_period <= frame_period - difficulty_step;
                                 end
                             end else begin
                                 points_in_level <= points_in_level + 1'b1;
@@ -247,7 +247,7 @@ module tt_um_dino7 (
             out[2] = (state == S_RUN);
             out[3] = obs_passed;
             out[4] = (state == S_JUMP);
-            out[5] = unused_ok;
+            out[5] = 1'b0;
             out[6] = obs_f;
             out[7] = (cooldown_timer > 0);
         end
