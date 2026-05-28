@@ -81,7 +81,7 @@
         }
       },
       "gds": ["dir::macros/logo.gds"],
-      "lef": ["dir::macros/logo.lef"]
+      "lef": ["dir::macros/tt_um_dino7_logo.lef"]
     }
   },
   "IGNORE_DISCONNECTED_MODULES": "tt_um_dino7_logo, logo",
