@@ -1,16 +1,5 @@
 `default_nettype none
 
-`ifdef SYNTHESIS
-(* blackbox *)
-(* keep *)
-module tt_um_dino7_logo();
-endmodule
-`else
-// En simulación normal y gate-level, definimos un módulo vacío funcional
-module tt_um_dino7_logo();
-endmodule
-`endif
-
 module tt_um_dino7 (
     input  wire [7:0] ui_in,
     output wire [7:0] uo_out,

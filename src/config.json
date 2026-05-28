@@ -76,7 +76,7 @@
     "tt_um_dino7_logo": {
       "instances": {
         "logo": {
-          "location": [20, 20],
+          "location": [25, 20],
           "orientation": "N"
         }
       },
