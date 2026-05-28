@@ -80,8 +80,8 @@
           "orientation": "N"
         }
       },
-      "gds": ["dir::macros/tt_um_dino7_logo.gds"],
-      "lef": ["dir::macros/tt_um_dino7_logo.lef"]
+      "gds": ["dir::..macros/tt_um_dino7_logo.gds"],
+      "lef": ["dir::..macros/tt_um_dino7_logo.lef"]
     }
   },
   "IGNORE_DISCONNECTED_MODULES": "tt_um_dino7_logo, logo",
