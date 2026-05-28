@@ -73,7 +73,7 @@
   "MAGIC_WRITE_LEF_PINONLY": 1,
   
   "MACROS": {
-    "wedgetail_logo": {
+    "tt_um_dino7_logo": {
       "instances": {
         "logo": {
           "location": [30, 20],
