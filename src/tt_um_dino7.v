@@ -1,4 +1,3 @@
-`include "tt_um_dino7_logo.vh"
 `default_nettype none
 
 module tt_um_dino7 (
@@ -255,7 +254,7 @@ module tt_um_dino7 (
     end
     
     (* keep *)
-    tt_um_dino7_logo logo ();
+    tt_um_dino7_logo logo();
 
     assign uo_out = out;
 
