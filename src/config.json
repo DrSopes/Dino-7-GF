@@ -84,6 +84,14 @@
       "lef": ["dir::../macros/tt_um_dino7_logo.lef"]
     }
   },
-  "IGNORE_DISCONNECTED_MODULES": "tt_um_dino7_logo, logo",
-  "ERROR_ON_DISCONNECTED_PINS": false
+  "IGNORE_DISCONNECTED_MODULES": [
+    "logo", "tt_um_dino7_logo"
+  ],
+  "LVS_FLATTEN_CELLS": [
+    "logo", "tt_um_dino7_logo"
+  ],
+  "MAGIC_EXT_ABSTRACT_CELLS": [
+    "logo", "tt_um_dino7_logo"
+  ]
+
 }

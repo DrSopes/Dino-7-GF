@@ -1,3 +1,4 @@
+`include "tt_um_dino7_logo.v"
 `default_nettype none
 
 module tt_um_dino7 (
