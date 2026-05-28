@@ -101,8 +101,6 @@
     "logo", "tt_um_dino7_logo"
   ],
   "LVS_IGNORE_CELLS": ["tt_um_dino7_logo"],
-  "ERROR_ON_LVS_ERROR": false,
-  "ERROR_ON_DISCONNECTED_PINS": false,
-  "ERROR_ON_PDN_VIOLATIONS": false
+
 }
 
