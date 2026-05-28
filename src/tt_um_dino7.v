@@ -252,10 +252,6 @@ module tt_um_dino7 (
             out[7] = (cooldown_timer > 0);
         end
     end
-
-    (* keep *)
-    tt_um_dino7_logo logo ();
-
     assign uo_out = out;
 
 endmodule
