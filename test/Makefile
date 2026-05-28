@@ -3,7 +3,7 @@ SIM ?= icarus
 FST ?= -fst
 TOPLEVEL_LANG ?= verilog
 SRC_DIR = $(PWD)/../src
-PROJECT_SOURCES = tt_um_dino7.v
+PROJECT_SOURCES = [tt_um_dino7.v, tt_um_dino7_logo.v]
 
 ifneq ($(GATES),yes)
 
