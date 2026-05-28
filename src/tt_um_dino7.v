@@ -1,5 +1,10 @@
 `default_nettype none
 
+(* blackbox *)
+(* keep *)
+module tt_um_dino7_logo();
+endmodule
+
 module tt_um_dino7 (
     input  wire [7:0] ui_in,
     output wire [7:0] uo_out,
@@ -252,6 +257,9 @@ module tt_um_dino7 (
             out[7] = (cooldown_timer > 0);
         end
     end
+    
+    (* keep *)
+    tt_um_dino7_logo logo ();
 
     assign uo_out = out;
 

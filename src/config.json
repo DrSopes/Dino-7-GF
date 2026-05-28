@@ -70,5 +70,20 @@
   "MAGIC_DEF_LABELS": 0,
 
   "//": "Only export pin area in LEF (without any connected nets)",
-  "MAGIC_WRITE_LEF_PINONLY": 1
+  "MAGIC_WRITE_LEF_PINONLY": 1,
+  
+  "MACROS": {
+    "tt_um_dino7_logo": {
+      "instances": {
+        "logo": {
+          "location": [15, 12],
+          "orientation": "N"
+        }
+      },
+      "gds": ["dir::macros/logo.gds"],
+      "lef": ["dir::macros/logo.lef"]
+    }
+  },
+  "IGNORE_DISCONNECTED_MODULES": "tt_um_dino7_logo, logo",
+  "ERROR_ON_DISCONNECTED_PINS": false
 }
