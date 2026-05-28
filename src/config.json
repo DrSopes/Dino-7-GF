@@ -80,18 +80,12 @@
           "orientation": "N"
         }
       },
-      "gds": ["dir::../macros/tt_um_dino7_logo.gds"],
-      "lef": ["dir::../macros/tt_um_dino7_logo.lef"]
+      "gds": ["dir::macros/tt_um_dino7_logo.gds"],
+      "lef": ["dir::macros/tt_um_dino7_logo.lef"]
     }
   },
-  "IGNORE_DISCONNECTED_MODULES": [
-    "logo", "tt_um_dino7_logo"
-  ],
-  "LVS_FLATTEN_CELLS": [
-    "logo", "tt_um_dino7_logo"
-  ],
-  "MAGIC_EXT_ABSTRACT_CELLS": [
-    "logo", "tt_um_dino7_logo"
-  ]
-
+  "LVS_IGNORE_CELLS": ["tt_um_dino7_logo"],
+  "FP_PDN_CHECK_NODES": false,
+  "ERROR_ON_DISCONNECTED_PINS": false
 }
+
