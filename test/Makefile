@@ -3,12 +3,13 @@ SIM ?= icarus
 FST ?= -fst
 TOPLEVEL_LANG ?= verilog
 SRC_DIR = $(PWD)/../src
-PROJECT_SOURCES = [tt_um_dino7.v, tt_um_dino7_logo.v]
+PROJECT_SOURCES = tt_um_dino7.v
 
 ifneq ($(GATES),yes)
 
 SIM_BUILD = sim_build/rtl
 VERILOG_SOURCES += $(addprefix $(SRC_DIR)/,$(PROJECT_SOURCES))
+VERILOG_SOURCES += $(SRC_DIR)/tt_um_dino7_logo.v
 COMPILE_ARGS += -DCOCOTB_SIM
 COMPILE_ARGS += -I$(SRC_DIR)
 
@@ -23,6 +24,7 @@ COMPILE_ARGS += -DUNIT_DELAY=\#1
 COMPILE_ARGS += -I$(SRC_DIR)
 VERILOG_SOURCES += $(PDK_ROOT)/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/primitives.v
 VERILOG_SOURCES += $(PDK_ROOT)/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v
+VERILOG_SOURCES += $(SRC_DIR)/tt_um_dino7_logo.v
 VERILOG_SOURCES += $(PWD)/gate_level_netlist.v
 
 endif
