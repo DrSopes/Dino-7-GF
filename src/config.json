@@ -100,7 +100,7 @@
   "MAGIC_EXT_ABSTRACT_CELLS": [
     "logo", "tt_um_dino7_logo"
   ],
-  "LVS_IGNORE_CELLS": ["tt_um_dino7_logo"],
+  "LVS_IGNORE_CELLS": ["tt_um_dino7_logo"]
 
 }
 
