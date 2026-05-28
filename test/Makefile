@@ -23,6 +23,7 @@ COMPILE_ARGS += -DUNIT_DELAY=\#1
 COMPILE_ARGS += -I$(SRC_DIR)
 VERILOG_SOURCES += $(PDK_ROOT)/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/primitives.v
 VERILOG_SOURCES += $(PDK_ROOT)/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/verilog/gf180mcu_fd_sc_mcu7t5v0.v
+VERILOG_SOURCES += $(SRC_DIR)/logo.sv
 VERILOG_SOURCES += $(PWD)/gate_level_netlist.v
 
 endif
